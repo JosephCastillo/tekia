@@ -1,0 +1,156 @@
+/*Inicio estilos boton whatsapp*/
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.whatsapp-float img {
+    width: 40px;
+    height: 40px;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/*Fin estilos boton whatsapp*/
+
+/* Inicio Estilos barra de navegaración */
+.custom-navbar {
+    background-color: #ffffff !important; /* Fondo blanco */
+    border-bottom: 1px solid #ddd; /* Línea gris sutil en la parte inferior */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para los enlaces de navegación */
+  .navbar-light .navbar-nav .nav-link {
+    color: #333 !important; /* Texto oscuro */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #007BFF !important; /* Color azul al pasar el cursor */
+  }
+  
+  /* Dropdown personalizado */
+  .custom-dropdown-menu {
+    background-color: #ffffff !important; /* Fondo blanco para dropdown */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .custom-dropdown-item {
+    color: #333 !important;
+  }
+  
+  .custom-dropdown-item:hover {
+    background-color: #007BFF !important;
+    color: #ffffff !important;
+  }
+  /* Fin Estilos barra de navegaración */
+
+  /* Inicios estilos header */
+  .bg-gradient {
+    background: linear-gradient(90deg, #f8f9fa, #e9ecef); /* Cambiado a un degradado claro */
+  }
+  
+  .highlight-box {
+    background: rgba(255, 255, 255, 0.7); /* Fondo más claro */
+    color: #212529; /* Texto oscuro */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-dark {
+    color: #212529 !important; /* Asegura que todo el texto sea oscuro */
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: #212529;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+    color: #fff;
+  }
+  
+  .fst-italic {
+    font-size: 1.1rem;
+  }
+  
+  /* Fin estilos header */
+
+  /* Inicio estilos servicios */
+  /* General */
+#servicios {
+    background-color: #f8f9fa;
+  }
+  
+  /* Títulos */
+  #servicios h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .card-title {
+    color: #212529; /* Color negro */
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #6c757d;
+  }
+  
+  /* Cards */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  /* Botones */
+  .btn-orange {
+    background-color: #ff7f0e; /* Color naranja */
+    color: #ffffff;
+    border: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-orange:hover {
+    background-color: #e66900; /* Naranja más oscuro */
+    transform: scale(1.1);
+  }
+  
+  /* Fin estilos servicios */

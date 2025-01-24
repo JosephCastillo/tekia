@@ -130,8 +130,9 @@
   }
   
   .card-img-top {
-    height: 500px;
-    object-fit: fill;
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    height: 500px; /* Fija la altura */
+    object-fit: cover;
     transition: transform 0.3s ease;
   }
   
